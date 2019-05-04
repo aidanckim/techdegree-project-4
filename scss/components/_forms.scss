@@ -1,0 +1,16 @@
+
+// form
+
+.form {
+  .form__input {
+    @include form-input;
+    font-size: $font-size-p;
+  }
+  .btn--default {
+    @include button;
+    text-transform: uppercase;
+  }
+  .form__label--hidden {
+    display: none;
+  }
+}

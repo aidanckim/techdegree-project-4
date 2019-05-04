@@ -1,0 +1,20 @@
+
+
+/* navigation */
+
+.nav {
+  width: 100%;
+  margin: 1em 0;
+  padding: 1em;
+  line-height: 1.5em;
+  a {
+    color: $color-primary;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  a:hover {
+    background-color: $color-secondary;
+    color: $white;
+  }
+}

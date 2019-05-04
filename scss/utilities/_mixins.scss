@@ -1,0 +1,40 @@
+
+// mixin
+
+@mixin form-input {
+  width: 90%;
+  padding: .5em;
+  margin: 2em 5% 0 5%;
+  border-bottom: solid 4px #80e8d1;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline-style: none;
+}
+
+@mixin button {
+  width: 95%;
+  border-radius: 10px;
+  padding: .5em;
+  margin: 25px 15px 25px 15px;
+  border: none;
+  background-color: $color-accent;
+  color: $white;
+  font-size: $font-size-p;
+}
+
+@mixin center {
+  width: 90%;
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin btn-color ($map) {
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+      @content;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+
+/* base */
+
+* {
+  box-sizing: border-box;
+  font-family: $font-stack-primary;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: $font-size-p;
+  margin: 2em 0;
+  /* edit values */
+}
+
+a {
+  text-decoration: none;
+  font-size: $font-size-p;
+  color: $color-accent;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; /* center align / move left / without bullet */
+}
+
+
+
+/* logo */
+
+.img--logo {
+  margin-top: $content-spacing;
+}

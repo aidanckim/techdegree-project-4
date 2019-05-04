@@ -1,0 +1,44 @@
+
+$white: #fff;
+
+$color-primary: #cccfca;
+$color-secondary: #87ebcb;
+$color-accent: #6ddfff;
+$color-shade: #eee;
+
+$color-text: #fff;
+$color-bg: #fff;
+$color-bg-light: #fff;
+
+$font-stack-primary: 'Raleway', sans-serif; /* change font-family */
+
+$font-size-p: 1.1em;
+$font-size-h: 1.6em;
+
+$max-width: 1400px;
+
+$content-spacing: 2.5em;
+
+
+
+//descriptive color variables
+
+$grey          : #858585;
+$white         : #fff;
+$blue          : #6ddfff;
+$green         : #2cc96d;
+$red           : #ff5451;
+$orange        : #ff6d4c;
+$purple        : #9a1eff;
+
+
+
+// button colors
+$button-colors: (
+  'login': $blue,
+  'default': $blue,
+  'success': $green,
+  'error': $red,
+  'warning': $orange,
+  'info': $purple
+);

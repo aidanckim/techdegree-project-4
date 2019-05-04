@@ -1,0 +1,11 @@
+
+
+// buttons
+
+.theme__colors {
+  @extend %btn;
+}
+
+.btn {
+  @include btn-color ($button-colors);
+}

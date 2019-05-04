@@ -1,0 +1,28 @@
+
+// typography
+
+.card {
+  text-align: left;
+  color: $color-primary;
+  .headline--primary {
+    margin-left: 0.75em;
+    width: 75%;
+    color: $color-secondary;
+  }
+  .blockquote {
+    font-size: $font-size-h;
+    width: 75%;
+    border-left: solid .5em $color-secondary;
+    border-radius: .5em;
+    padding-right: .25em;
+    padding-left: .5em;
+  }
+}
+
+.headline--secondary {
+    color: $color-primary;
+    font-size: $font-size-p;
+    text-align: left;
+    margin: 1em 0;
+    padding-top: 3.75em;
+}
