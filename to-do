@@ -1,13 +1,32 @@
 
 
 
+desktop
+
+- center last grid
+
+
+
+
+mobile
+- left align grid col
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 grid colors
 
 desktop version
-
-
-
-
 
 
 watch 'use the ampersand to reference parent selectors'

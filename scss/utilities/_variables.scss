@@ -1,21 +1,30 @@
 
+// colors
+
 $white: #fff;
 
 $color-primary: #cccfca;
 $color-secondary: #87ebcb;
 $color-accent: #6ddfff;
-$color-shade: #eee;
 
-$color-text: #fff;
-$color-bg: #fff;
-$color-bg-light: #fff;
+
+
+// fonts
 
 $font-stack-primary: 'Raleway', sans-serif; /* change font-family */
 
 $font-size-p: 1.1em;
 $font-size-h: 1.6em;
 
+
+
+// max-width
+
 $max-width: 1400px;
+
+
+
+// spacing
 
 $content-spacing: 2.5em;
 
@@ -23,22 +32,50 @@ $content-spacing: 2.5em;
 
 //descriptive color variables
 
-$grey          : #858585;
-$white         : #fff;
-$blue          : #6ddfff;
-$green         : #2cc96d;
-$red           : #ff5451;
-$orange        : #ff6d4c;
-$purple        : #9a1eff;
+$grey      : #808080;
+$white     : #fff;
+$skyblue   : #66d6ff;
+$avocado   : #38cf77;
+$bloodred  : #ff3f38;
+$sunset    : #ff6b42;
+$lilac     : #a220ff;
+$turquoise : #80f0bf;
+$lilac-light  : #bf9ff7;
+$skyblue-dark : #2b3abf;
+$avocado-light : #51de70;
+$bloodred-light : #ff7e7a;
+$sunset-light : #ff8664;
 
 
 
 // button colors
+
 $button-colors: (
-  'login': $blue,
-  'default': $blue,
-  'success': $green,
-  'error': $red,
-  'warning': $orange,
-  'info': $purple
+  'login': $skyblue,
+  'default': $skyblue,
+  'success': $avocado,
+  'error': $bloodred,
+  'warning': $sunset,
+  'info': $lilac
 );
+
+
+
+// grid colors
+
+$grid-colors: (
+  '3': $lilac-light,
+  '4': $skyblue,
+  '5': $avocado-light,
+  '6': $skyblue-dark,
+  '7': $bloodred-light,
+  '8': $sunset-light,
+  '12': $turquoise
+);
+
+
+// breakpoints
+
+$breakpoint-sm: 1px;
+$breakpoint-med: 768px;
+$breakpoint-lg: 1400px;

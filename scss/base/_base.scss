@@ -6,15 +6,9 @@
   font-family: $font-stack-primary;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 p {
   font-size: $font-size-p;
-  margin: 2em 0;
+  margin: 1.5em 0;
   /* edit values */
 }
 
@@ -38,4 +32,15 @@ ul {
 
 .img--logo {
   margin-top: $content-spacing;
+}
+
+// container
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  @media (min-width: $breakpoint-med) {
+    width: 80%;
+  }
 }

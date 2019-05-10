@@ -17,4 +17,13 @@
     background-color: $color-secondary;
     color: $white;
   }
+  @include mq(medium) {
+    @include flexy($dir: row);
+    &__item {
+      flex-grow: 1;
+      max-width: 100%;
+      text-align: center;
+      padding-top: 35px;
+    }
+  }
 }

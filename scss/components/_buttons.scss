@@ -7,5 +7,13 @@
 }
 
 .btn {
-  @include btn-color ($button-colors);
+  @include btn-color ($button-colors) {
+    text-transform: uppercase;
+    width: 90%;
+    @include mq(medium) {
+      display: inline-block;
+      width: 12.5%;
+      margin: 1em;
+    }
+  }
 }
