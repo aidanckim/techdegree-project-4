@@ -1,7 +1,7 @@
 /* change font-family */
 .theme__colors {
   width: 95%;
-  border-radius: 5px;
+  border-radius: 2.5px;
   padding: 15px 0;
   margin: 10px;
   border: none;
@@ -408,6 +408,12 @@ ul {
   margin-top: 10px;
   flex-basis: 100%;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--1.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
 @media (min-width: 769px) {
   .grid__col--1 {
     margin-top: 0;
@@ -417,6 +423,12 @@ ul {
 .grid__col--2 {
   margin-top: 10px;
   flex-basis: 100%;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--2.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 769px) {
   .grid__col--2 {
@@ -431,6 +443,12 @@ ul {
 .grid__col--3.theme__colors {
   background-color: #bf9ff7;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--3.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
 @media (min-width: 769px) {
   .grid__col--3 {
     margin-top: 0;
@@ -443,6 +461,12 @@ ul {
 }
 .grid__col--4.theme__colors {
   background-color: #66d6ff;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--4.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 769px) {
   .grid__col--4 {
@@ -457,6 +481,12 @@ ul {
 .grid__col--5.theme__colors {
   background-color: #51de70;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--5.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
 @media (min-width: 769px) {
   .grid__col--5 {
     margin-top: 0;
@@ -470,6 +500,12 @@ ul {
 .grid__col--6.theme__colors {
   background-color: #2b3abf;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--6.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
 @media (min-width: 769px) {
   .grid__col--6 {
     margin-top: 0;
@@ -481,7 +517,13 @@ ul {
   flex-basis: 100%;
 }
 .grid__col--7.theme__colors {
-  background-color: #ff3f38;
+  background-color: #ff7e7a;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--7.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 769px) {
   .grid__col--7 {
@@ -494,7 +536,13 @@ ul {
   flex-basis: 100%;
 }
 .grid__col--8.theme__colors {
-  background-color: #ff6b42;
+  background-color: #ff8664;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--8.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 769px) {
   .grid__col--8 {
@@ -506,6 +554,12 @@ ul {
   margin-top: 10px;
   flex-basis: 100%;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--9.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
 @media (min-width: 769px) {
   .grid__col--9 {
     margin-top: 0;
@@ -516,6 +570,12 @@ ul {
   margin-top: 10px;
   flex-basis: 100%;
 }
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--10.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
 @media (min-width: 769px) {
   .grid__col--10 {
     margin-top: 0;
@@ -525,6 +585,12 @@ ul {
 .grid__col--11 {
   margin-top: 10px;
   flex-basis: 100%;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--11.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 769px) {
   .grid__col--11 {
@@ -538,6 +604,12 @@ ul {
 }
 .grid__col--12.theme__colors {
   background-color: #80f0bf;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--12.theme__colors {
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 769px) {
   .grid__col--12 {
@@ -595,7 +667,7 @@ ul {
 }
 .form .btn--default {
   width: 95%;
-  border-radius: 10px;
+  border-radius: 2.5px;
   padding: 0.5em;
   margin: 25px 15px 25px 15px;
   border: none;
@@ -618,6 +690,7 @@ ul {
     display: inline-block;
     width: 12.5%;
     margin: 1em;
+    font-size: 15px;
   }
 }
 .btn--default {
@@ -630,6 +703,7 @@ ul {
     display: inline-block;
     width: 12.5%;
     margin: 1em;
+    font-size: 15px;
   }
 }
 .btn--success {
@@ -642,6 +716,7 @@ ul {
     display: inline-block;
     width: 12.5%;
     margin: 1em;
+    font-size: 15px;
   }
 }
 .btn--error {
@@ -654,6 +729,7 @@ ul {
     display: inline-block;
     width: 12.5%;
     margin: 1em;
+    font-size: 15px;
   }
 }
 .btn--warning {
@@ -666,6 +742,7 @@ ul {
     display: inline-block;
     width: 12.5%;
     margin: 1em;
+    font-size: 15px;
   }
 }
 .btn--info {
@@ -678,6 +755,7 @@ ul {
     display: inline-block;
     width: 12.5%;
     margin: 1em;
+    font-size: 15px;
   }
 }
 

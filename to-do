@@ -1,6 +1,22 @@
 
 
 
+FINAL CHECK
+
+css folder
+- css folder has base folder in it which has normalize.css and normalize.css.map
+
+base -> _base.scss
+- .img
+- .container
+
+utilities -> _functions.scss
+- no content
+
+
+
+
+
 desktop
 
 - center last grid

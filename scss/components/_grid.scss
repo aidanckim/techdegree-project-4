@@ -35,6 +35,10 @@
       &--#{$i} {
         &.theme__colors {
           background-color: map-get($grid-colors, #{$i});
+          @include mq(small) {
+            text-align: left;
+            padding-left: 10px;
+          }
         }
 
 
