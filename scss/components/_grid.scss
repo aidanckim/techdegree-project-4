@@ -68,7 +68,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include mq(medium) {
 
       // add grid gutter
       margin-left: 10px;
